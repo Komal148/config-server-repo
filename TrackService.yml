@@ -2,10 +2,9 @@ spring:
 	data:
 		mongodb:
 			database: trackdb
-			port:	27017
+			port:	27018
 			host: localhost
-
+	application:
+		name: TrackService
 server:
 	port: 8083
-application:
-	name: TrackService
